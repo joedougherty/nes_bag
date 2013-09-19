@@ -103,7 +103,7 @@ void loop() {
     if(!d){      
       d = true; //Make sure the button is only pressed once 
       Serial.println("DOWN pressed");
-      current_pixel_instruction = 1; // Rightz turn
+      current_pixel_instruction = 1; // Right turn
     } else {
       d = false;
       keysReleased[3] = 1;
