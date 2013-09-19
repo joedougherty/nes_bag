@@ -116,7 +116,7 @@ void loop() {
     if(!l){      
       l = true; //Make sure the button is only pressed once 
       Serial.println("LEFT pressed");
-      current_pixel_instruction = 2; // All off
+      current_pixel_instruction = 2; // All on
     } else {
       l = false;
       keysReleased[4] = 1;
