@@ -15,7 +15,7 @@ Check out [Youtube] (http://www.youtube.com/watch?v=FVxmWuh-Jxc) for a shaky, lo
 This project uses an Adafruit Flora, a vintage NES controller, LED pixels, and a whole lot of love.
 
 ## Dependencies
-## Stand on the shoulders of giants ##
+### Stand on the shoulders of giants ###
 [NES Pad Arduino Library] (https://code.google.com/p/nespad/)
 
 [Adafruit WS2801 Library] (https://github.com/adafruit/Adafruit-WS2801-Library)
