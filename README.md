@@ -1,7 +1,7 @@
 # NES Controller Cycling Backpack #
 ## Be well-lit on the streets at night and yet oh so fashionable ##
 
-Inspired by [Adafruit's Flora Brakelight Backpack:] (http://learn.adafruit.com/flora-brakelight-backpack/overview) 
+Inspired by [Adafruit's Flora Brakelight Backpack]. (http://learn.adafruit.com/flora-brakelight-backpack/overview) 
 
 Current modes include:
   * All lights on 
@@ -12,7 +12,7 @@ Current modes include:
 
 Check out [Youtube] (http://www.youtube.com/watch?v=FVxmWuh-Jxc) for a shaky, low-quality cell phone video!
 
-This project uses an Adafruit Flora, a vintage NES controller, LED pixels, and a whole lot of love.
+This project uses an [Adafruit Flora] (http://www.adafruit.com/products/659), a vintage NES controller, LED pixels, and a whole lot of love.
 
 ## Dependencies
 ### Stand on the shoulders of giants ###
