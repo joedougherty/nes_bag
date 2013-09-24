@@ -16,6 +16,9 @@ This project uses an [Adafruit Flora] (http://www.adafruit.com/products/659), a 
 
 ![Full Shot](https://raw.github.com/joedougherty/nes_bag/master/img/full_shot.jpg)
 
+Shoulder-mounted controls!
+![Controls](https://raw.github.com/joedougherty/nes_bag/master/img/shoulder_mounted.jpg)
+
 ## Dependencies
 ### Stand on the shoulders of giants ###
 [NES Pad Arduino Library] (https://code.google.com/p/nespad/)
