@@ -45,12 +45,8 @@ uint8_t previous_pixel_instruction = 2;
 uint8_t current_pixel_instruction  = 2;
 
 void setup() {
-  Serial.begin(9600);
-  
   strip.begin();
-  // Update LED contents, to start they are all 'off'
-  strip.show();
-  
+  strip.show();  // Update LED contents, to start they are all 'off'
   allOn(red);
 }
 
@@ -198,11 +194,11 @@ void loop() {
     } else if (current_pixel_instruction == 4) {    
       allOn(off);
     } else if (current_pixel_instruction == 5) {
-  
+      // NOT CURRENTLY DEFINED
     } else if (current_pixel_instruction == 6) {
-      
+      // NOT CURRENTLY DEFINED
     } else { // current_pixel_instruction == 7
-    
+      // NOT CURRENTLY DEFINED
     }
   
 }
