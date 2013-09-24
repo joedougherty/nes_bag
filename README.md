@@ -14,6 +14,8 @@ Check out [Youtube] (http://www.youtube.com/watch?v=FVxmWuh-Jxc) for a shaky, lo
 
 This project uses an [Adafruit Flora] (http://www.adafruit.com/products/659), a vintage NES controller, LED pixels, and a whole lot of love.
 
+![Full Shot](https://raw.github.com/joedougherty/nes_bag/master/img/full_shot.jpg)
+
 ## Dependencies
 ### Stand on the shoulders of giants ###
 [NES Pad Arduino Library] (https://code.google.com/p/nespad/)
