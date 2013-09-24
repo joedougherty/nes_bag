@@ -20,7 +20,7 @@ Shoulder-mounted controls:
 ![Controls](https://raw.github.com/joedougherty/nes_bag/master/img/shoulder_mounted.jpg)
 
 Party Mode:
-![Party Mode](https://github.com/joedougherty/nes_bag/blob/master/img/party_mode.gif)
+![Party Mode](https://raw.github.com/joedougherty/nes_bag/master/img/party_mode.gif)
 
 ## Dependencies
 ### Stand on the shoulders of giants ###
