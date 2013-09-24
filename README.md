@@ -16,8 +16,11 @@ This project uses an [Adafruit Flora] (http://www.adafruit.com/products/659), a 
 
 ![Full Shot](https://raw.github.com/joedougherty/nes_bag/master/img/full_shot.jpg)
 
-Shoulder-mounted controls!
+Shoulder-mounted controls:
 ![Controls](https://raw.github.com/joedougherty/nes_bag/master/img/shoulder_mounted.jpg)
+
+Party Mode:
+![Party Mode](https://github.com/joedougherty/nes_bag/blob/master/img/party_mode.gif)
 
 ## Dependencies
 ### Stand on the shoulders of giants ###
