@@ -10,7 +10,7 @@ Current modes include:
   * Right turn signal
   * Party Mode(TM)
 
-Check out [Youtube] (http://www.youtube.com/watch?v=FVxmWuh-Jxc) for a shaky, low-quality cell phone video!
+Check out [a shaky, low-quality cell phone video] (http://www.youtube.com/watch?v=FVxmWuh-Jxc)!
 
 This project uses an [Adafruit Flora] (http://www.adafruit.com/products/659), a vintage NES controller, LED pixels, and a whole lot of love.
 
