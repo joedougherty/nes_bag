@@ -18,5 +18,5 @@ This project uses an [Adafruit Flora] (http://www.adafruit.com/products/659), a 
 ### Stand on the shoulders of giants ###
 [NES Pad Arduino Library] (https://code.google.com/p/nespad/)
 
-[Adafruit WS2801 Library] (https://github.com/adafruit/Adafruit-WS2801-Library)
+[Adafruit WS2801 Library] (https://github.com/adafruit/Adafruit-WS2801-Library):
 This library provides an interface for controlling the [LED pixel strips] (https://www.adafruit.com/products/738).
