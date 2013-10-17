@@ -138,6 +138,7 @@ void loop() {
     if(!s){      
       s = true; //Make sure the button is only pressed once 
       Serial.println("START pressed");
+      current_pixel_instruction = 5; // Blink all
     } else {
       s = false;
       keysReleased[6] = 1;
@@ -179,7 +180,7 @@ void loop() {
   /* 2: all on                   */
   /* 3: party mode               */
   /* 4: stealth mode             */
-  /* 5: NOT CURRENTLY DEFINED    */
+  /* 5: blink all                */
   /* 6: NOT CURRENTLY DEFINED    */
   /* 7: NOT CURRENTLY DEFINED    */
   /*******************************/  
@@ -194,7 +195,7 @@ void loop() {
     } else if (current_pixel_instruction == 4) {    
       allOn(off);
     } else if (current_pixel_instruction == 5) {
-      // NOT CURRENTLY DEFINED
+      blinkAll(35);
     } else if (current_pixel_instruction == 6) {
       // NOT CURRENTLY DEFINED
     } else { // current_pixel_instruction == 7
@@ -253,6 +254,13 @@ void allOn(uint32_t color) {
     strip.setPixelColor(i, color);
     strip.show(); 
   }
+}
+
+void blinkAll(int wait_time) {
+  allOn(red);
+  delay(wait_time);
+  allOn(off);
+  delay(wait_time);
 }
 
 void party() {
