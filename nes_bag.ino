@@ -151,6 +151,7 @@ void loop() {
     if(!e){      
       e = true; //Make sure the button is only pressed once 
       Serial.println("SELECT pressed");
+      current_pixel_instruction = 6; // mac_charge
     } else {
       e = false;
       keysReleased[7] = 1;
@@ -197,7 +198,7 @@ void loop() {
     } else if (current_pixel_instruction == 5) {
       blinkAll(35);
     } else if (current_pixel_instruction == 6) {
-      // NOT CURRENTLY DEFINED
+      mac_charge();
     } else { // current_pixel_instruction == 7
       // NOT CURRENTLY DEFINED
     }
@@ -261,6 +262,27 @@ void blinkAll(int wait_time) {
   delay(wait_time);
   allOn(off);
   delay(wait_time);
+}
+
+void mac_charge() {
+  int i;
+  int p;
+  
+  for (i=0; i<200; i = i+4) {
+    delay(2);
+    for (p=0; p<strip.numPixels(); p++) {
+      strip.setPixelColor(p, Color(i,0,0));
+    }
+    strip.show(); 
+  }
+  
+  for (i=200; i>0; i = i-4) {
+    delay(2);
+    for (p=0; p<strip.numPixels(); p++) {
+      strip.setPixelColor(p, Color(i,0,0));
+    }
+    strip.show();
+  }
 }
 
 void party() {
