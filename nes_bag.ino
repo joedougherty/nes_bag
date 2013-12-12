@@ -182,7 +182,7 @@ void loop() {
   /* 3: party mode               */
   /* 4: stealth mode             */
   /* 5: blink all                */
-  /* 6: NOT CURRENTLY DEFINED    */
+  /* 6: mac charge               */
   /* 7: NOT CURRENTLY DEFINED    */
   /*******************************/  
   if (current_pixel_instruction == 0) {
