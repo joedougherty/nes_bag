@@ -21,8 +21,8 @@ Shoulder-mounted controls:
 ![Controls](https://raw.github.com/joedougherty/nes_bag/master/img/shoulder_mounted.jpg)
 
 The Internals:
-![Internals](https://raw.github.com/joedougherty/nes_bag/blob/master/img/nes_backpack_internals.jpg)
-![Internals Macro](https://raw.github.com/joedougherty/nes_bag/blob/master/img/nes_backpack_internals_macro.jpg)
+![Internals](https://raw.github.com/joedougherty/nes_bag/master/img/nes_backpack_internals.jpg)
+![Internals Macro](https://raw.github.com/joedougherty/nes_bag/master/img/nes_backpack_internals_macro.jpg)
 
 Party Mode:
 
