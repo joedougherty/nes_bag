@@ -8,6 +8,7 @@ Current modes include:
   * All lights off (STEALTH MODE)
   * Left turn signal
   * Right turn signal
+  * "Mac Charge" mode
   * Party Mode(TM)
 
 Check out [a shaky, low-quality cell phone video] (http://www.youtube.com/watch?v=FVxmWuh-Jxc)!
@@ -18,6 +19,10 @@ This project uses an [Adafruit Flora] (http://www.adafruit.com/products/659), a 
 
 Shoulder-mounted controls:
 ![Controls](https://raw.github.com/joedougherty/nes_bag/master/img/shoulder_mounted.jpg)
+
+The Internals:
+![Internals](https://github.com/joedougherty/nes_bag/blob/master/img/nes_backpack_internals.jpg)
+![Internals Macro](https://github.com/joedougherty/nes_bag/blob/master/img/nes_backpack_internals_macro.jpg)
 
 Party Mode:
 
